@@ -5,8 +5,10 @@
 class SocketX
 {
 	private:
+		// To store Socket FD
 		int socketFD;
 	public:
+		// To create Socket 
 		int createSocket();
 };
 #endif
